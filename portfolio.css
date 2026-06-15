@@ -1,0 +1,285 @@
+
+
+
+.skills-table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+  font-family: Arial, sans-serif;
+}
+
+.skills-table th,
+.skills-table td {
+  /* border: 1px solid #ddd; */
+  /* padding: 0px 8px; */
+  vertical-align: top;
+  padding: 8px 0px ;
+}
+
+.skills-table th {
+  /* background-color: #f4f4f4; */
+  color: beige;
+  font-weight: 350;
+}
+
+
+
+html{
+    margin: 0px;
+    padding: 0px;
+    scroll-behavior: smooth;
+}
+
+
+
+*{
+    background-color: #1B3843;
+    color: rgba(245, 245, 220, 0.833);
+
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 200;
+    font-size: 20px;
+
+    letter-spacing: 2px;
+   
+    
+    
+}
+
+
+
+section{
+    display: flex;
+   
+    gap: 50px;
+
+
+
+    padding: 50px 100px;
+    margin: 0px;
+
+    
+    
+}
+
+.name h1{
+    font-family:monospace;
+    font-size: 90px;
+    font-style: normal;
+    font-weight: 900;
+    text-align: start;
+    
+    color: #1B3843;
+    -webkit-text-stroke: 2px beige;
+    margin-bottom: 20px;
+
+    display: block;
+    margin-top: 20px;
+    
+  
+}
+
+.section1{
+    display: flex;
+    flex-shrink: 0;
+    flex-direction: column;
+    gap: 50px;
+
+
+    width: 500px;
+    
+    align-self: flex-start;
+}
+
+h4{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    font-size: 24px;
+    font-weight: 500;
+
+    color: beige;
+
+}
+
+
+
+
+
+
+.links a
+{
+    text-decoration: none;
+   letter-spacing: 4px;
+   color: beige;
+   letter-spacing: 90px;
+   
+   border: 2px solid beige;
+   padding: 10px;   
+   /* box-shadow: 3px 5px rgba(245, 245, 220, 0.839); */
+
+
+
+    
+   
+}
+.links{
+    letter-spacing: 20px;
+    color: beige;
+
+    
+   
+}
+.links a:hover{
+    box-shadow: none;
+    transform: translateX(5px) translateY(3px);
+    
+    
+}   
+
+
+
+
+
+
+.navigation a{
+    text-decoration: none;
+    font-size: 24px;
+    margin: 5px;
+
+    transition: all ease .2s;
+
+
+    border: 2px solid beige;
+    padding: 10px;
+    box-shadow: 3px 5px 0px rgba(245, 245, 220, 0.839);
+  
+
+
+    
+}
+
+.navigation a:hover{
+    
+   transform: translateY(5px) translateX(3px);
+   box-shadow: none;
+
+    
+}
+
+
+.navigation{
+    display: flex;
+    flex-direction: column;
+
+      width: max-content;
+    
+
+
+}
+
+
+
+
+
+/* .main{
+    margin-left: 500px;
+} */
+
+.projects{
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.projectItems{
+    display: flex;
+    
+    gap: 20px;
+}
+
+
+.projects .card {
+    width: 250px;
+    object-fit: contain;
+    
+
+
+    height: 150px;
+    border: 1px solid #275364;
+    overflow: hidden;
+    flex-shrink: 0;
+
+
+
+       
+
+
+}
+.card img{
+    height: 150px;
+    width: 250px;
+}
+ 
+
+.text h3{
+    font-weight: 500;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0px;
+}
+
+
+.button{
+    border: 2px solid beige;
+    background-color: #1B3843;
+    color: beige;
+    padding: 10px;
+   
+
+    box-shadow: 3px 5px 0px rgba(245, 245, 220, 0.839);
+    transition: all ease .2s;
+}
+
+.button:hover{
+   transform: translateY(5px) translateX(3px);
+   box-shadow: none;
+   
+
+    
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+ 
+    width: 500px;
+    
+   
+ 
+
+}
+
+form input{
+    padding: 10px;
+    border: 2px solid beige;
+    box-shadow: 3px 5px 0px rgba(245, 245, 220, 0.839);
+
+    color: rgba(245, 245, 220, 0.833);
+
+}
+
+
+form input:active {
+      transform: translateY(5px) translateX(3px);
+   box-shadow: none;
+      transition: all ease .2s;
+
+   
+}
+
+
+
+
+
+
+
+
